@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pointmark",
+  "description": "Mark a point on a page so you can jump back to it later.",
+
+  "version": "0.0.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
